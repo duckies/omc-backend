@@ -2228,7 +2228,57 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mikro-orm/migrations@npm:4.5.6, @mikro-orm/migrations@npm:^4.5.6":
+"@mikro-orm/knex@npm:^4.5.7":
+  version: 4.5.7
+  resolution: "@mikro-orm/knex@npm:4.5.7"
+  dependencies:
+    fs-extra: 9.1.0
+    knex: 0.21.19
+    sqlstring: 2.3.2
+  peerDependencies:
+    "@mikro-orm/core": ^4.0.0
+    "@mikro-orm/entity-generator": ^4.0.0
+    "@mikro-orm/migrations": ^4.0.0
+    mssql: ^7.0.0
+    mysql: ^2.18.1
+    mysql2: ^2.1.0
+    pg: ^8.0.3
+    sqlite3: ^5.0.0
+  peerDependenciesMeta:
+    "@mikro-orm/entity-generator":
+      optional: true
+    "@mikro-orm/migrations":
+      optional: true
+    mssql:
+      optional: true
+    mysql:
+      optional: true
+    mysql2:
+      optional: true
+    pg:
+      optional: true
+    sqlite3:
+      optional: true
+  checksum: b3f1ab4a81074f5f0ee5737376a7b733218de34da03a9f658dafe96f77009e53b7b700b549f9cb43bf48aae8168e998ccedc379558efa43020801a3fac6b291c
+  languageName: node
+  linkType: hard
+
+"@mikro-orm/migrations@npm:4.5.7":
+  version: 4.5.7
+  resolution: "@mikro-orm/migrations@npm:4.5.7"
+  dependencies:
+    "@mikro-orm/knex": ^4.5.7
+    "@types/umzug": 2.3.0
+    fs-extra: 9.1.0
+    knex: 0.21.19
+    umzug: 2.3.0
+  peerDependencies:
+    "@mikro-orm/core": ^4.0.0
+  checksum: 258e7e079e6a9657675ab9f1e0ce62bb6db9bb4ae04ca1e2b91828b7430f87e314b1b59f2dc1cfb177077341f7a0d82a728fc2049bd02992b74abb2db1b4ed56
+  languageName: node
+  linkType: hard
+
+"@mikro-orm/migrations@npm:^4.5.6":
   version: 4.5.6
   resolution: "@mikro-orm/migrations@npm:4.5.6"
   dependencies:
@@ -3199,7 +3249,7 @@ __metadata:
     "@mikro-orm/cli": 4.5.6
     "@mikro-orm/core": 4.5.6
     "@mikro-orm/knex": 4.5.6
-    "@mikro-orm/migrations": 4.5.6
+    "@mikro-orm/migrations": 4.5.7
     "@mikro-orm/nestjs": 4.2.0
     "@mikro-orm/postgresql": 4.5.6
     "@mikro-orm/sql-highlighter": 1.0.1
