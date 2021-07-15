@@ -2228,6 +2228,41 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mikro-orm/knex@npm:^4.5.7":
+  version: 4.5.7
+  resolution: "@mikro-orm/knex@npm:4.5.7"
+  dependencies:
+    fs-extra: 9.1.0
+    knex: 0.21.19
+    sqlstring: 2.3.2
+  peerDependencies:
+    "@mikro-orm/core": ^4.0.0
+    "@mikro-orm/entity-generator": ^4.0.0
+    "@mikro-orm/migrations": ^4.0.0
+    mssql: ^7.0.0
+    mysql: ^2.18.1
+    mysql2: ^2.1.0
+    pg: ^8.0.3
+    sqlite3: ^5.0.0
+  peerDependenciesMeta:
+    "@mikro-orm/entity-generator":
+      optional: true
+    "@mikro-orm/migrations":
+      optional: true
+    mssql:
+      optional: true
+    mysql:
+      optional: true
+    mysql2:
+      optional: true
+    pg:
+      optional: true
+    sqlite3:
+      optional: true
+  checksum: b3f1ab4a81074f5f0ee5737376a7b733218de34da03a9f658dafe96f77009e53b7b700b549f9cb43bf48aae8168e998ccedc379558efa43020801a3fac6b291c
+  languageName: node
+  linkType: hard
+
 "@mikro-orm/migrations@npm:4.5.6, @mikro-orm/migrations@npm:^4.5.6":
   version: 4.5.6
   resolution: "@mikro-orm/migrations@npm:4.5.6"
@@ -2254,15 +2289,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mikro-orm/postgresql@npm:4.5.6":
-  version: 4.5.6
-  resolution: "@mikro-orm/postgresql@npm:4.5.6"
+"@mikro-orm/postgresql@npm:4.5.7":
+  version: 4.5.7
+  resolution: "@mikro-orm/postgresql@npm:4.5.7"
   dependencies:
-    "@mikro-orm/knex": ^4.5.6
+    "@mikro-orm/knex": ^4.5.7
     pg: 8.6.0
   peerDependencies:
     "@mikro-orm/core": ^4.0.0
-  checksum: 210d8298ef4a2492eeaa654d7ee6f852cae7720ea31edc1aba68655bfd328eec68fed3ca5989447f169a1e89b7cb9a3e85f08e503ec75de8e515e86ffceae3dc
+  checksum: a77ab3be7bb6323dfc8266a7f2b8abebf919a0c2ab7cca3df6826b66fef8c54f21b492847374dc74155635bb5d058a8b02f899cf67be5ce42c50003a676a048f
   languageName: node
   linkType: hard
 
@@ -3201,7 +3236,7 @@ __metadata:
     "@mikro-orm/knex": 4.5.6
     "@mikro-orm/migrations": 4.5.6
     "@mikro-orm/nestjs": 4.2.0
-    "@mikro-orm/postgresql": 4.5.6
+    "@mikro-orm/postgresql": 4.5.7
     "@mikro-orm/sql-highlighter": 1.0.1
     "@nestjs/cli": 7.6.0
     "@nestjs/common": 7.6.18
